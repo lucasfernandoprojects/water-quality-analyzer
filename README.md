@@ -2,13 +2,13 @@
 
 An open-source water quality analyzer built with an ESP32 that estimates the pollution level of water samples by combining three different sensors. Results are displayed in real time on the Arduino IDE Serial Monitor.
 
-> **This project was kindly sponsored by [Elecrow](https://www.elecrow.com/referral-program/ODI4MDlqMnQ/) — a leading provider of open-source hardware and manufacturing services. They offer everything from ESP32 development boards to professional PCB assembly, CNC machining, and more. Check them out for your next project!**
+> **This project was kindly sponsored by [Elecrow](https://www.elecrow.com/referral-program/ODI4MDlqMnQ/) - a leading provider of open-source hardware and manufacturing services. They offer everything from ESP32 development boards to professional PCB assembly, CNC machining, and more. Check them out for your next project!**
 
 ---
 
 ## 📺 Watch the Full Build Video
 
-A complete walkthrough of this project — from wiring to real-world testing on urban rivers — is available on [YouTube](https://www.youtube.com/watch?v=ioxa7Pzs5dA). The video covers component selection, sensor calibration, code upload, and field results.
+A complete walkthrough of this project, from wiring to real-world testing on urban rivers, is available on [YouTube](https://www.youtube.com/watch?v=ioxa7Pzs5dA). The video covers component selection, sensor calibration, code upload, and field results.
 
 ---
 
@@ -99,9 +99,9 @@ The complete Arduino sketch is available in this repository. To get started:
 
 The analyzer combines three measurements to classify water quality:
 
-- **pH** — Detects acidity or alkalinity. Natural rivers typically fall between pH 6.5 and 8.5. Values outside this range may indicate contamination.
-- **TDS (Total Dissolved Solids)** — Estimates the concentration of dissolved minerals and salts.
-- **Turbidity** — Measures water clarity. Higher turbidity suggests suspended particles.
+- **pH**: Detects acidity or alkalinity. Natural rivers typically fall between pH 6.5 and 8.5. Values outside this range may indicate contamination.
+- **TDS (Total Dissolved Solids)**: Estimates the concentration of dissolved minerals and salts.
+- **Turbidity**: Measures water clarity. Higher turbidity suggests suspended particles.
 
 Based on these readings, the system outputs a pollution classification (e.g., `CLEAN`, `POLLUTED`) to the Serial Monitor.
 
@@ -109,7 +109,7 @@ Based on these readings, the system outputs a pollution classification (e.g., `C
 
 ## 🔬 Field Results
 
-The analyzer was tested on water samples collected from two urban rivers in a large Brazilian city.
+The analyzer was tested on water samples collected from two urban rivers in a large city that don't cross each other.
 
 | Parameter | River 1 | River 2 |
 |---|---|---|
@@ -118,7 +118,7 @@ The analyzer was tested on water samples collected from two urban rivers in a la
 | Turbidity | Low | Higher (~0.8V) |
 | Classification | POLLUTED | POLLUTED |
 
-Both samples showed highly alkaline pH values (above 12), which is far outside the range of natural water. While hobby-grade sensors have inherent limitations and laboratory testing would be needed to confirm exact values, these results — combined with visual observations such as visible waste, suspicious discharge pipes, and an absence of wildlife — are consistent with significant water pollution.
+Both samples showed highly alkaline pH values (above 12), which is far outside the range of natural water. While hobby-grade sensors have inherent limitations and laboratory testing would be needed to confirm exact values, these results - combined with visual observations such as visible waste, suspicious discharge pipes, and an absence of wildlife - are consistent with significant water pollution.
 
 ---
 
@@ -134,10 +134,17 @@ The PCB design files (Gerber files, position files, and BOM) are included in the
 
 ```
 water-quality-analyzer/
-├── code/               # Arduino sketch
-├── schematic/          # Wiring diagram
-├── pcb/                # PCB manufacturing files (Gerber, position, BOM)
-└── README.md
+├── 1-gerber/                         # Gerber files for PCB manufacturing
+├── 2-drill/                          # Drill files for PCB manufacturing
+├── 3-position/                       # Component position files
+├── 4-components/                     # Component/BOM files
+├── 5-model/                          # PCB 3D model files
+├── 6-schematic/                      # Wiring schematic
+├── LICENSE
+├── README.md
+├── calibration-tool.ino              # Calibration sketch for pH and TDS sensors
+├── schematic-breadboard-project.png  # Breadboard wiring diagram
+└── water-quality-analyzer.ino        # Main analyzer sketch
 ```
 
 ---
@@ -151,14 +158,6 @@ water-quality-analyzer/
 
 ---
 
-## 🤝 Sponsor
-
-This project was kindly supported by **[Elecrow](https://www.elecrow.com/)**.
-
-Elecrow is one of the leading providers of open-source hardware and manufacturing services, offering ESP32 development boards, PCB assembly, CNC machining, and much more. If you're looking for components or manufacturing services for your next electronics project, be sure to check them out.
-
----
-
 ## 📄 License
 
 This project is open-source. Feel free to use, modify, and share it. If you build something based on this work, a credit or link back to this repository is always appreciated.
@@ -167,4 +166,4 @@ This project is open-source. Feel free to use, modify, and share it. If you buil
 
 ## 💬 Feedback & Contributions
 
-Questions, suggestions, and pull requests are welcome! If you'd like to see a fully portable version of this analyzer with a touchscreen enclosure, let me know — it's on the roadmap.
+Questions, suggestions, and pull requests are welcome! If you'd like to see a fully portable version of this analyzer with a touchscreen enclosure, let me know (it's on the roadmap).
