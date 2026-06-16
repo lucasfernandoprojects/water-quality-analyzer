@@ -154,6 +154,9 @@ The PCB design files (Gerber files, position files, and BOM) are included in thi
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-11.png" width="800" height="600" style="margin: 10px;">
 </div>
 
+> [!NOTE]
+> This PCB was designed to work with an [Elecrow ESP32 board](https://www.elecrow.com/esp32-wifi-ble-board.html). If you are using an ESP32 from another manufacturer, the pinout may be different. Be sure to check your board's pinout before connecting it on the PCB.
+
 ---
 
 ## 📁 Repository Structure
