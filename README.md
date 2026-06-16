@@ -128,9 +128,9 @@ The analyzer was tested on water samples collected from two urban rivers in a la
 
 | Parameter | River 1 | River 2 |
 |---|---|---|
-| pH | ~12.7 | ~13 |
-| Conductivity | ~175 µS/cm | ~175 µS/cm |
-| Turbidity | Low | Higher (~0.8V) |
+| pH | ~12 | ~13 |
+| Conductivity | ~157 µS/cm | ~175 µS/cm |
+| Turbidity | Low (~0.3V) | Higher (~0.8V) |
 | Classification | POLLUTED | POLLUTED |
 
 Both samples showed highly alkaline pH values (above 12), which is far outside the range of natural water. While hobby-grade sensors have inherent limitations and laboratory testing would be needed to confirm exact values, these results - combined with visual observations such as visible waste, suspicious discharge pipes, and an absence of wildlife - are consistent with significant water pollution.
