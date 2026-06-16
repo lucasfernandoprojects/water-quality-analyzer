@@ -150,8 +150,8 @@ After a failed attempt at a fully portable enclosure, a new custom **shield PCB*
 The PCB design files (Gerber files, position files, and BOM) are included in this repository and are fully open-sourced for anyone to manufacture or modify.
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-10.jpg" width="800" height="600" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-11.jpg" width="800" height="600" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-10.png" width="800" height="600" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-11.png" width="800" height="600" style="margin: 10px;">
 </div>
 
 ---
