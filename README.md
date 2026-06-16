@@ -8,7 +8,7 @@ An open-source water quality analyzer built with an ESP32 that estimates the pol
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-1.jpg" width="400" height="250" style="margin: 10px;">
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-2.jpg" width="400" height="250" style="margin: 10px;">
 </div>
-</br>
+
 ---
 
 ## 📺 Watch the Full Build Video
@@ -43,7 +43,7 @@ A complete walkthrough of this project, from wiring to real-world testing on urb
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-3.jpg" width="400" height="250" style="margin: 10px;">
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-4.jpg" width="400" height="250" style="margin: 10px;">
 </div>
-</br>
+
 ---
 
 ## 🔌 Wiring
@@ -94,7 +94,7 @@ The TDS sensor outputs a voltage proportional to water conductivity. Using a 141
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-5.jpg" width="400" height="250" style="margin: 10px;">
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-6.jpg" width="400" height="250" style="margin: 10px;">
 </div>
-</br>
+
 ---
 
 ## 💻 Code
@@ -140,7 +140,7 @@ Both samples showed highly alkaline pH values (above 12), which is far outside t
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-8.jpg" width="400" height="250" style="margin: 10px;">
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-9.jpg" width="800" height="600" style="margin: 10px;">
 </div>
-</br>
+
 ---
 
 ## 🛠️ Custom Shield PCB
