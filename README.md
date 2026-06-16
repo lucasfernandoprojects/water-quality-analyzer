@@ -2,7 +2,7 @@
 
 An open-source water quality analyzer built with an ESP32 that estimates the pollution level of water samples by combining three different sensors. Results are displayed in real time on the Arduino IDE Serial Monitor.
 
-> **This project was kindly sponsored by [Elecrow](https://www.elecrow.com/referral-program/ODI4MDlqMnQ/) - a leading provider of open-source hardware and manufacturing services. They offer everything from ESP32 development boards to professional PCB assembly, CNC machining, and more. Check them out for your next project!**
+> **This project was kindly sponsored by [Elecrow](https://www.elecrow.com/pcb-assembly.html?idd=5) - a leading provider of open-source hardware and manufacturing services. They offer everything from ESP32 development boards to professional PCB assembly, CNC machining, and more. I highly recommend checking them out for your next project.**
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-1.jpg" width="400" height="250" style="margin: 10px;">
