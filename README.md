@@ -145,9 +145,14 @@ Both samples showed highly alkaline pH values (above 12), which is far outside t
 
 ## 🛠️ Custom Shield PCB
 
-After a failed attempt at a fully portable enclosure, a new custom **shield PCB** was designed to allow all three sensors to connect directly to the ESP32 without a breadboard or jumper wires.
+After a failed attempt at a fully portable enclosure, a new custom **shield PCB** was designed to allow all three sensors to connect directly to the ESP32 without a breadboard or jumper wires. It contains battery protection (DW01A) and 5V boost converter (TPS61023DRLT).
 
 The PCB design files (Gerber files, position files, and BOM) are included in this repository and are fully open-sourced for anyone to manufacture or modify.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-10.jpg" width="800" height="600" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-11.jpg" width="800" height="600" style="margin: 10px;">
+</div>
 
 ---
 
