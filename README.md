@@ -5,8 +5,8 @@ An open-source water quality analyzer built with an ESP32 that estimates the pol
 > **This project was kindly sponsored by [Elecrow](https://www.elecrow.com/referral-program/ODI4MDlqMnQ/) - a leading provider of open-source hardware and manufacturing services. They offer everything from ESP32 development boards to professional PCB assembly, CNC machining, and more. Check them out for your next project!**
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-1.jpg" width="500" height="300" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-2.jpg" width="500" height="300" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-1.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-2.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 </br>
 ---
@@ -40,8 +40,8 @@ A complete walkthrough of this project, from wiring to real-world testing on urb
 **Estimated cost:** at least ~$30 USD, excluding shipping and taxes.
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-3.jpg" width="500" height="300" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-4.jpg" width="500" height="300" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-3.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-4.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 </br>
 
@@ -92,8 +92,8 @@ Update these values in the code if your sensor produces different calibration re
 The TDS sensor outputs a voltage proportional to water conductivity. Using a 1413 µS/cm conductivity reference solution, a conversion factor was derived to translate sensor voltage into conductivity (µS/cm) and then into TDS (ppm).
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-5.jpg" width="500" height="300" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-6.jpg" width="500" height="300" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-5.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-6.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 </br>
 
@@ -138,9 +138,9 @@ The analyzer was tested on water samples collected from two urban rivers in a la
 Both samples showed highly alkaline pH values (above 12), which is far outside the range of natural water. While hobby-grade sensors have inherent limitations and laboratory testing would be needed to confirm exact values, these results - combined with visual observations such as visible waste, suspicious discharge pipes, and an absence of wildlife - are consistent with significant water pollution.
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-7.jpg" width="400" height="300" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-8.jpg" width="400" height="300" style="margin: 10px;">
-    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-9.jpg" width="400" height="300" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-7.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-8.jpg" width="400" height="250" style="margin: 10px;">
+    <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-9.jpg" width="800" height="600" style="margin: 10px;">
 </div>
 </br>
 
