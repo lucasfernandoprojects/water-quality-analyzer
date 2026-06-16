@@ -44,7 +44,6 @@ A complete walkthrough of this project, from wiring to real-world testing on urb
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-4.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 </br>
-
 ---
 
 ## 🔌 Wiring
@@ -96,7 +95,6 @@ The TDS sensor outputs a voltage proportional to water conductivity. Using a 141
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-6.jpg" width="400" height="250" style="margin: 10px;">
 </div>
 </br>
-
 ---
 
 ## 💻 Code
@@ -143,7 +141,6 @@ Both samples showed highly alkaline pH values (above 12), which is far outside t
     <img src="https://github.com/lucasfernandoprojects/water-quality-analyzer/blob/main/8-photos/photo-9.jpg" width="800" height="600" style="margin: 10px;">
 </div>
 </br>
-
 ---
 
 ## 🛠️ Custom Shield PCB
